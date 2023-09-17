@@ -16,7 +16,7 @@ const index=6;
 useEffect(()=>{
   apiClient.get("browse/categories").then( function(res){
    setCategory(res.data.categories?.items);
-   console.log(category);
+   
 
   });
    
@@ -31,6 +31,7 @@ useEffect(()=>{
 
 
 },[]);
+
 const navigate=useNavigate();
 const track=(id)=>{
 
@@ -44,8 +45,8 @@ const track=(id)=>{
 <div className='feed-main'  >
       {category?.slice(0,6).map((category)=>(
         (index<7)&&
-        <div className='feed-card' onClick={()=>track(category?.id)}>
-        <img src={category?.icons[0]?.url} alt="image" className='feed-card-image'/>
+        <div className='feed-card' >
+        <img src={category?.icons[0]?.url} alt="image" className='feed-card-image' onClick={()=>track(category.id)}/>
         
         <h1 className='feed-card-title'>{category.name}</h1>
         </div>
@@ -55,17 +56,17 @@ const track=(id)=>{
 </div>
       <div>
       <h1 className='heading'>Featured Playlist</h1>
-<div className='featured-main'  onClick={()=>track(featured.id)}>
+<div className='featured-main'  >
       {featured?.slice(0,10).map((featured)=>(
         <div>
           
-         <div className="button-card">
+         <div className="button-card" onClick={()=>track(featured.id)}>
          <IconContext.Provider value={{size:"52px",className:"button-align",color:"white"}}>
          
          <AiFillPlayCircle/>
        </IconContext.Provider>
        </div>
-       
+      
         
         <div className='featured-card'>
         <img src={featured.images[0]?.url} alt="image" className='featured-image'/>
@@ -80,10 +81,10 @@ const track=(id)=>{
       </div>
       <div className="">
       <h1 className='heading'>Morning Pick's</h1>
-<div className='featured-main'  onClick={()=>track(featured.id)}>
+<div className='featured-main' >
       {featured?.slice(8,16).map((featured)=>(
          <div >
-          <div className="button-card">
+          <div className="button-card" onClick={()=>track(featured.id)}>
          <IconContext.Provider value={{size:"52px",className:"button-align",color:"white"}}>
          
          <AiFillPlayCircle/>

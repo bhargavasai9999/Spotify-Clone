@@ -13,8 +13,8 @@ export  function Queue({tracks,setcurrent,setcurindex}) {
         <div className='align-p' onClick={()=>{
           setcurindex(index)}}>
       <p className='p'>{track.track?.name} </p>
-      <p className='p'>{track.track?.duration_ms}</p>
-      </div>
+      <p className='p'>{Math.round(((track.track?.duration_ms)/1000)/60)}.{Math.round(((track.track?.duration_ms)/1000)%60)} min</p>
+      </div>  
       </div>
 )}
 

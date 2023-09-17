@@ -95,7 +95,7 @@ setcurindex(curindex+1);
     <div className='songplayer-body'>
       {current ? <h1 className='song-title'>{current?.name}</h1>:<p className='song-title'>select song from Library or Home</p>}
           
-          <p className='song-title'>{current?.album?.name}</p>
+          <p className='song-title' style={{fontSize:"20px"}}>{current?.album?.name}</p>
       <Controls  isPlaying={isPlaying} setisPlaying={setisPlaying} handlePrev={handlePrev}handleNext={handleNext}/>
     </div>
   )
