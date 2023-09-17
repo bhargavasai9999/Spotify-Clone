@@ -19,7 +19,7 @@ const [Playlist,setPlaylist]=useState(null)
 const navigate=useNavigate()
 
   const playPlaylist=(id)=>{
-      navigate('/spotify/player',{state:{id:id}})
+      navigate('/player',{state:{id:id}})
   }
   return (
 

@@ -53,10 +53,11 @@ else if(now-setupTime > hours*60*60*1000) {
         <Sidebar/>
       <Routes>
             < Route path="/spotify" element={<Feed/>}/>
-            <Route path ="/spotify/player" element={<Player/>}/>
-            <Route path ="/spotify/library" element={<Library/>}/>
-            <Route path ="/spotify/trending" element={<Trending/>}/>
-            <Route path ="/spotify/signout" element={<Sign/>}/>
+            < Route path="/" element={<Feed/>}/>
+            <Route path ="/player" element={<Player/>}/>
+            <Route path ="/library" element={<Library/>}/>
+            <Route path ="/trending" element={<Trending/>}/>
+            <Route path ="/signout" element={<Sign/>}/>
       </Routes>
       </div>
 

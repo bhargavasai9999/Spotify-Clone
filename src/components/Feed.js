@@ -35,7 +35,7 @@ useEffect(()=>{
 const navigate=useNavigate();
 const track=(id)=>{
 
-  navigate("/spotify/player",{state:{id:id}})
+  navigate("/player",{state:{id:id}})
 
 }
   return (
