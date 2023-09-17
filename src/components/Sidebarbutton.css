@@ -1,0 +1,30 @@
+.button-container{
+    height:60px;
+    width:60px;
+    display: flex-column;
+    cursor: pointer;
+    padding:10px;
+    color:white;
+    justify-content: center;
+    margin:4px auto;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+.title{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;  
+
+}
+
+.btnactiv{
+  transition: 0.2s ease;
+    border-radius: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    text-align: center;
+}
+

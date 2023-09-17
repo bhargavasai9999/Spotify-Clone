@@ -1,0 +1,45 @@
+.bar-container{
+    height:100%;
+    width:90px;
+    background-color: rgb(55, 36, 73);
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    opacity: 0.8;
+    padding:10px;
+    position: fixed;
+z-index:1;
+box-shadow: 2px 10px 10px rgb(232, 233, 238);
+
+
+}
+.profile-image{
+    height:50px;
+    width:50px;
+    border-radius:25px ;
+}
+
+
+.profile-img{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    background-color: white;
+    text-align:center;
+    position: relative;
+    left:10px;
+    top:25px;
+}
+.profile-img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.sign-out{
+position: relative;
+top:-40px;
+}

@@ -1,0 +1,47 @@
+.main-image{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+   
+z-index:1;
+}
+.main-div{
+   /* background-image: url("./login.jpg");
+   background-size: cover; */
+    height: 100vh;
+    width:100vw;
+   
+}
+.main-button{
+    height:60px;
+    width:180px;
+    font-size: 24px;
+    background: white;
+    border-radius: 40px;
+    text-align: center;
+    border-width: 2px;
+    box-shadow: 5px 5px 5px rgb(31, 28, 28);
+    z-index:78;
+    font-weight:500;
+   margin-top:20%;
+    
+    position: relative;
+}
+.main-button:hover{
+    background-color: rgb(45, 230, 60);
+    color:white;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.login-heading{
+    
+        font-size: 36px;
+        color: white ;
+        font-weight: 500;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    
+}

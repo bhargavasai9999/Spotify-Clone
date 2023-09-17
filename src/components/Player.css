@@ -1,0 +1,70 @@
+.player-body{
+    height:100vh;
+    width:100vw;
+    margin-left: 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 0;
+    justify-content: space-between;
+    
+}
+
+.player-album{
+    height:52vh;
+    width:20vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    padding:10px;
+    transition:  0.2s ease-out;
+    margin-top:20px;
+    overflow: hidden;
+    
+
+}
+.player-album:hover{
+    transform: scale(0.95);
+    transition:  0.3s;
+}
+.player-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.player-part2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.player-tracks{
+    height:40vh;
+    width:25vw;
+    background-color:rgb(46, 46, 58);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 7px 5px 5px rgb(226, 224, 224);
+    transition: 0.3s ease-out;
+
+}
+.player-tracks:hover{
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.player{
+    height:100vh;
+    width:50vw;
+    background-color: white;
+text-align: center;   
+ margin:20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(230, 227, 227);
+    
+}

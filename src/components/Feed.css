@@ -1,0 +1,152 @@
+/* Featured Playlist */
+.featured-card{
+    height:40vh;
+    width:15vw;
+    border-radius:20px;
+    text-align: center;
+   
+    margin:10px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    transition: 0.3s ease-out;
+    box-shadow: 5px 10px 10px rgb(233, 227, 227);
+border-radius: 20px;
+cursor: pointer;
+    
+}
+
+.featured-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+   
+   
+}
+.featured-card:hover +.button-align{
+     
+    width:inherit;
+        height:inherit;
+        display: block;
+        opacity: 0.6;
+        display: flex-column;
+        justify-content: center;
+    
+}
+.featured-title{
+    font-size:24px;
+    color:black;
+    font-weight:bold;
+    overflow:hidden;
+    
+    white-space: nowrap;
+}
+.featured-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.featured-total{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: end;
+}
+
+.featured-image{
+    height:70%;
+    width:100%;
+    position:relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.featured-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button-align{
+
+    display:block;
+    position: absolute;
+    margin-top:90px;
+    margin-left: 85px;
+    z-index:1;
+   justify-content: center;
+   opacity: 1;
+
+}
+.button-card{
+   
+    height:70px;
+    width:100px;
+    position: absolute;
+}
+
+
+.button-align:hover{
+    display:block;
+   
+}
+
+
+/* categories */
+.feed-body{
+    height:fit-content;
+    width:100%;
+    margin-left: 90px;
+    background-color: white;
+}
+.feed-card-image{
+    border-radius:100%;
+    height:120px;
+    width:120px;
+    background: none;
+    box-shadow: 2px 2px 2px  rgb(240, 239, 239);
+
+
+}
+.feed-card{
+    cursor: pointer;
+    height:30vh;
+    width:20%;
+    padding: 10px;
+    text-align: center;
+    margin:10px;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    transition: 0.3s ease-out;
+border-radius: 20px;
+}
+.feed-card-title{
+    font-size:36px;
+    color:black;
+    font-weight:bold;
+    overflow:hidden;
+    white-space: nowrap;
+    padding:10px;
+}
+.feed-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 36px;
+    
+}
+
+.feed-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
