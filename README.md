@@ -21,12 +21,12 @@ git clone https://github.com/bhargavasai9999/Spotify-Clone.git
 
 ## Features
 
--User authentication
--Daily Feed and Categories\
--Trending
--Library 
--Playing and pausing songs
--Signout
+- User authentication
+- Daily Feed and Categories\
+- Trending
+- Library 
+- Playing and pausing songs
+- Signout
 ## Screenshots
 ![Screenshot (64)](https://github.com/bhargavasai9999/Spotify-Clone/assets/85823759/0586d327-fde0-4188-910f-52ca4859cf5c)
 
