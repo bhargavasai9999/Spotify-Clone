@@ -22,7 +22,7 @@ git clone https://github.com/bhargavasai9999/Spotify-Clone.git
 ## Features
 
 - User authentication
-- Daily Feed and Categories\
+- Daily Feed and Categories
 - Trending
 - Library 
 - Playing and pausing songs
