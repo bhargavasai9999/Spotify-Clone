@@ -48,7 +48,7 @@ else if(now-setupTime > hours*60*60*1000) {
   return (
     (!token)?  <Login/>:
 
-    <Router>
+    
       <div className='main-body'>
         <Sidebar/>
       <Routes>
@@ -63,6 +63,6 @@ else if(now-setupTime > hours*60*60*1000) {
 
 
 
-    </Router>
+    
   )
 }
