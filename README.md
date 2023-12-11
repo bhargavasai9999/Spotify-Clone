@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple Spotify clone with basic features.
+A simple Spotify clone with basic features Using React
 
 ## Table of Contents
 
